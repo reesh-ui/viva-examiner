@@ -6,7 +6,7 @@ Our app helps university students practice viva exams using Gemma 4: it asks a v
 Gemma 4 does the main work: it generates the viva question and grades the student's answer. We call `gemma-4-26b-a4b-it` (with `gemma-4-31b-it` as a retry) through the Gemini API.
 
 ## Model and license
-Gemma 4, released under the Apache 2.0 license.
+Gemma 4, released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## How to run
 1. `pip install google-genai python-dotenv streamlit`
